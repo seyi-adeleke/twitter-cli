@@ -6,10 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "twitter": "./bin/cli"
+  },
   "keywords": [],
   "author": "Seyi Adeleke",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^2.3.2",
     "commander": "^2.15.1",
     "dotenv": "^5.0.1"
   }
